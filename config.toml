@@ -29,7 +29,7 @@ buildExpired = false
   ShowCodeCopyButtons = true
   ShowWordCount = true
   UseHugoToc = true
-
+  
   # Custom CSS
   customCSS = ["css/custom.css"]
   
@@ -44,6 +44,30 @@ buildExpired = false
   I'm a Robotics & Computer Vision engineer, working on multimodal scene understanding architectures. 
   During weekends, I enjoy experimenting with 🤖 robot learning behaviors using Multi-Agent Deep RL algorithms.
   """
+
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://www.youtube.com/@LetsTalkWithRobots"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/MayurHulke"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/LetstalkRobots"
+
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/themayurhulk"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/mayurhulke/"
+
+[[params.socialIcons]]
+  name = "link"
+  url = "https://www.letstalkwithrobots.com/"
 
 [menu]
   [[menu.main]]
