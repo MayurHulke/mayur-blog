@@ -1,6 +1,6 @@
 baseURL: https://mayurhulke.github.io/
 languageCode: en-us
-title: Mayur Hulke's Blog
+title: Mayur
 theme: PaperMod
 paginate: 10
 
@@ -17,7 +17,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Mayur Hulke's Blog
+  title: Mayur
   description: "Personal blog for AI, Robotics, and Computer Vision"
   keywords: [Blog, AI, Robotics, Computer Vision, Deep RL]
   author: Mayur Hulke
@@ -49,13 +49,13 @@ params:
     safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: "Mayur Hulke's Blog"
+    text: "Mayur"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # home-info mode
   homeInfoParams:
-    Title: "👋 Welcome to Mayur Hulke's Blog"
+    Title: "👋 Welcome to Mayur's Blog"
     Content: >
       Hi, this is Mayur. I'm documenting my learning notes & projects in this blog.
       
