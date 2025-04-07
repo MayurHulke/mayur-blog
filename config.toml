@@ -1,0 +1,79 @@
+baseURL = "https://mayurhulke.github.io/"
+languageCode = "en-us"
+title = "Mayur"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Mayur"
+  description = "Personal blog for AI, Robotics, and Computer Vision"
+  keywords = ["Blog", "AI", "Robotics", "Computer Vision", "Deep RL"]
+  author = "Mayur Hulke"
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  mainSections = ["posts"]
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  UseHugoToc = true
+
+[params.homeInfoParams]
+  Title = "👋 Welcome to Mayur's Blog"
+  Content = """
+  Hi, this is Mayur. I'm documenting my learning notes & projects in this blog.
+  
+  I'm a Robotics & Computer Vision engineer, working on multimodal scene understanding architectures. 
+  During weekends, I enjoy experimenting with 🤖 robot learning behaviors using Multi-Agent Deep RL algorithms.
+  """
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 30
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 40
+  [[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "/faq/"
+    weight = 50
+
+[markup.highlight]
+  noClasses = false
+  codeFences = true
+  guessSyntax = true
+  lineNos = false
+  style = "monokai"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors" 
