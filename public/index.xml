@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mayur</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:65502/</link>
     <description>Recent content on Mayur</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Apr 2024 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:65502/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reinforcement learning (without neural networks)</title>
-      <link>http://localhost:1313/posts/rl/</link>
+      <link>http://localhost:65502/posts/rl/</link>
       <pubDate>Sat, 20 Apr 2024 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rl/</guid>
+      <guid>http://localhost:65502/posts/rl/</guid>
       <description>A detailed introduction to reinforcement learning fundamentals without neural networks</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>http://localhost:1313/faq/</link>
+      <link>http://localhost:65502/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/faq/</guid>
+      <guid>http://localhost:65502/faq/</guid>
       <description>&lt;h1 id=&#34;frequently-asked-questions&#34;&gt;Frequently Asked Questions&lt;/h1&gt;
 &lt;h2 id=&#34;what-is-this-blog-about&#34;&gt;What is this blog about?&lt;/h2&gt;
 &lt;p&gt;This blog contains my learning notes, insights, and projects related to AI, Robotics, and Computer Vision. I share detailed explanations of complex concepts, implementation details, and my personal experiences working with these technologies.&lt;/p&gt;

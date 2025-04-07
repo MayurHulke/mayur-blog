@@ -50,17 +50,20 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: List files before build
+        run: ls -la
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
-          cp .nojekyll public/
+          hugo version
+          echo "Building with baseURL: ${{ steps.pages.outputs.base_url }}/"
+          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          touch public/.nojekyll
+          echo "Contents of public directory:"
+          ls -la public/
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
