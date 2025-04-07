@@ -24,6 +24,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  mainSections: ["posts"]
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -99,13 +100,13 @@ menu:
       name: Archive
       url: /archives/
       weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
     - identifier: search
       name: Search
       url: /search/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
       weight: 40
     - identifier: faq
       name: FAQ

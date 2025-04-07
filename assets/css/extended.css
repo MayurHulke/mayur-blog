@@ -1,0 +1,118 @@
+/* Custom CSS to match Lilian Weng's blog style */
+
+:root {
+    --header-height: 60px;
+    --content-gap: 20px;
+    --content-width: 720px;
+    --main-width: 720px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.main-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    margin-right: 20px;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.post-title {
+    font-size: 2em;
+    margin-bottom: 16px;
+}
+
+.post-content {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Home page styling */
+.home-info {
+    padding: 40px 0;
+}
+
+.home-info h1 {
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.home-info p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Post list styling */
+.post-entry {
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+}
+
+.post-entry .entry-header h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+/* Tag page styling */
+.terms-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.terms-tags a {
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: var(--tertiary);
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.terms-tags a:hover {
+    background-color: var(--secondary);
+    color: var(--theme);
+}
+
+/* Dark mode adjustments */
+.dark .terms-tags a {
+    background-color: var(--code-bg);
+    color: var(--content);
+}
+
+.dark .terms-tags a:hover {
+    background-color: var(--border);
+    color: var(--theme);
+} 
