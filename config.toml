@@ -30,6 +30,12 @@ buildExpired = false
   ShowWordCount = true
   UseHugoToc = true
 
+  # Custom CSS
+  customCSS = ["css/custom.css"]
+  
+  # Math support
+  math = true
+
 [params.homeInfoParams]
   Title = "👋 Welcome to Mayur's Blog"
   Content = """
