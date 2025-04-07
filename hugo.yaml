@@ -2,14 +2,13 @@ baseURL: https://mayurhulke.github.io/
 languageCode: en-us
 title: Mayur
 theme: PaperMod
-paginate: 10
+pagination:
+  pagerSize: 10
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -122,3 +121,9 @@ markup:
     guessSyntax: true
     lineNos: false
     style: monokai
+
+# Set up taxonomies
+taxonomies:
+  category: categories
+  tag: tags
+  author: authors
