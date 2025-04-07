@@ -3,7 +3,7 @@ title: "Reinforcement learning (without neural networks)"
 date: 2024-04-20T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Reinforcement learning"]
+tags: ["Reinforcement learning", "Machine Learning", "AI"]
 author: "Mayur Hulke"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -11,17 +11,16 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-#description: "Desc Text."
+description: "A detailed introduction to reinforcement learning fundamentals without neural networks"
 #canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
 disableHLJS: false
+disableShare: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: false
+ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
@@ -36,6 +35,7 @@ cover:
 #    appendFilePath: true # to append file path to Edit link
 ---
 ![Status: Currently Writing](https://img.shields.io/badge/Status-Currently%20Writing-blue)
+**Estimated Reading Time: 15 min**
 
 ## RL Framework: The Problem
 In this post, you'll learn how to specify a real-world problem as a Markov Decision Process (MDP), so that it can be solved with reinforcement learning.
