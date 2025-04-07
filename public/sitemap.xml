@@ -2,39 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mayurhulke.github.io/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2024-04-20T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://mayurhulke.github.io/authors/</loc>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
     <lastmod>2024-04-20T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://mayurhulke.github.io/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-04-20T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://mayurhulke.github.io/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-04-20T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://mayurhulke.github.io/authors/mayur-hulke/</loc>
+    <loc>http://localhost:1313/tags/reinforcement-learning/</loc>
     <lastmod>2024-04-20T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://mayurhulke.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/rl/</loc>
     <lastmod>2024-04-20T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://mayurhulke.github.io/tags/reinforcement-learning/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-04-20T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://mayurhulke.github.io/posts/rl/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>https://mayurhulke.github.io/tags/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://mayurhulke.github.io/archives/</loc>
+    <loc>http://localhost:1313/faq/</loc>
   </url><url>
-    <loc>https://mayurhulke.github.io/categories/</loc>
-  </url><url>
-    <loc>https://mayurhulke.github.io/faq/</loc>
-  </url><url>
-    <loc>https://mayurhulke.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

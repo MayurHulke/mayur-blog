@@ -71,9 +71,4 @@ buildExpired = false
   codeFences = true
   guessSyntax = true
   lineNos = false
-  style = "monokai"
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  author = "authors" 
+  style = "monokai" 

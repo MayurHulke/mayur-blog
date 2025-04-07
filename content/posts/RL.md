@@ -2,21 +2,9 @@
 title: "Reinforcement learning (without neural networks)"
 date: 2024-04-20T11:30:03+00:00
 tags: ["Reinforcement learning", "Machine Learning", "AI"]
-showToc: true
-TocOpen: false
 draft: false
-hidemeta: false
-comments: false
 description: "A detailed introduction to reinforcement learning fundamentals without neural networks"
-disableHLJS: false
-disableShare: false
-hideSummary: false
-searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-UseHugoToc: true
 ---
 ![Status: Currently Writing](https://img.shields.io/badge/Status-Currently%20Writing-blue)
 **Estimated Reading Time: 15 min**
