@@ -39,10 +39,11 @@ buildExpired = false
 [params.homeInfoParams]
   Title = "👋 Welcome to Mayur's Blog"
   Content = """
-  Hi, this is Mayur. I'm documenting my learning notes & projects in this blog.
+  Hi, this is Mayur. I'm documenting my learning notes & projects in this blog. I love building robots 🤖 been doing so since I was 14 (robowars used to be my Fav competition and won 30+ National robotics competitions growing up) 🏆
+
+  Now I'm a Staff Robotics & Computer Vision engineer from London, England, working with big boys doing serious stuff I guess 😳
   
-  I'm a Robotics & Computer Vision engineer, working on multimodal scene understanding architectures. 
-  During weekends, I enjoy experimenting with 🤖 robot learning behaviors using Multi-Agent Deep RL algorithms.
+  I have a thing for deep ideas 💭 and trying to find the obvious truths around our existence (it's definitely harder than it sounds). During my limited free time, I enjoy getting lost in them and for some reason I enjoy reading books on long train journeys 🚆.
   """
 
 [[params.socialIcons]]
