@@ -1,0 +1,49 @@
+{{ $title := .Get "title" }}
+{{ $authors := .Get "authors" }}
+{{ $year := .Get "year" | default "N/A" }}
+{{ $url := .Get "url" | default "#" }}
+{{ $venue := .Get "venue" | default "" }}
+{{ $code := .Get "code" | default "" }}
+
+<div class="paper-citation">
+  <h4><a href="{{ $url }}" target="_blank">{{ $title }}</a></h4>
+  <p class="authors">{{ $authors }}</p>
+  <div class="meta">
+    {{ if $venue }}<span class="venue">{{ $venue }}</span> · {{ end }}<span class="year">{{ $year }}</span>
+    {{ if $code }}<span class="code-link"> · <a href="{{ $code }}" target="_blank">Code</a></span>{{ end }}
+  </div>
+  {{ with .Inner }}
+  <div class="summary">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
+</div>
+
+<style>
+.paper-citation {
+  background: #f8f9fa;
+  border-left: 4px solid #0366d6;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
+}
+.paper-citation h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.paper-citation .authors {
+  color: #555;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+.paper-citation .meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+.paper-citation .summary {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+</style> 

@@ -1,0 +1,60 @@
+{{ $dataset := .Get "dataset" | default "Benchmark" }}
+{{ $metric := .Get "metric" | default "Accuracy" }}
+{{ $highlight := .Get "highlight" | default "" }}
+{{ $precision := .Get "precision" | default "2" }}
+
+<div class="results-table-container">
+  <div class="results-title">Results on {{ $dataset }} ({{ $metric }})</div>
+  <table class="results-table">
+    <thead>
+      <tr>
+        <th>Method</th>
+        <th>{{ $metric }}</th>
+        {{ range $i, $e := .Params }}
+          {{ if and (ne $i "dataset") (ne $i "metric") (ne $i "highlight") (ne $i "precision") (ne $i "cols") }}
+            {{ if ne $i "Method" }}
+              {{ if ne $i $metric }}
+                <th>{{ $i }}</th>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </tr>
+    </thead>
+    <tbody>
+      {{ .Inner }}
+    </tbody>
+  </table>
+</div>
+
+<style>
+.results-table-container {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+.results-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.results-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.results-table th,
+.results-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+.results-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.results-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.results-table .highlight {
+  font-weight: bold;
+  color: #0366d6;
+}
+</style> 

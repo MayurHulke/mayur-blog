@@ -2,7 +2,7 @@
 title: "Reinforcement learning (without neural networks)"
 date: 2024-04-20T11:30:03+00:00
 tags: ["Reinforcement learning", "Machine Learning", "AI"]
-draft: false
+draft: true
 description: "A detailed introduction to reinforcement learning fundamentals without neural networks"
 ShowReadingTime: true
 ---

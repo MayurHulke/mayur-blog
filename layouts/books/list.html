@@ -1,0 +1,78 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="content">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+<div class="posts-list">
+  {{- range (.Pages.ByDate.Reverse) }}
+  <article class="post-entry">
+    <div class="book-entry-container">
+      {{- if .Params.cover_image }}
+      <div class="book-cover">
+        <img src="{{ .Params.cover_image | absURL }}" alt="{{ .Title }}" loading="lazy">
+      </div>
+      {{- end }}
+      
+      <div class="book-details">
+        <header class="entry-header">
+          <h2>{{ .Title }}</h2>
+        </header>
+        
+        <div class="entry-content">
+          <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        </div>
+        
+        <footer class="entry-footer">
+          {{- partial "post_meta.html" . -}}
+        </footer>
+      </div>
+    </div>
+    
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</div>
+
+<style>
+.book-entry-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.book-cover {
+  flex: 0 0 auto;
+  max-width: 80px;
+  margin-bottom: 0;
+}
+
+.book-cover img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.book-details {
+  flex: 1 1 auto;
+}
+
+@media (max-width: 768px) {
+  .book-entry-container {
+    flex-direction: column;
+  }
+  
+  .book-cover {
+    max-width: 70px;
+    margin-bottom: 15px;
+  }
+}
+</style>
+
+{{- end }}{{- /* end main */ -}} 

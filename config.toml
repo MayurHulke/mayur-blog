@@ -20,7 +20,7 @@ buildExpired = false
   author = "Mayur Hulke"
   DateFormat = "January 2, 2006"
   defaultTheme = "auto"
-  mainSections = ["posts"]
+  mainSections = ["posts", "papers", "projects", "books", "thoughts"]
 
   ShowReadingTime = true
   ShowShareButtons = true
@@ -76,6 +76,11 @@ buildExpired = false
     url = "/posts/"
     weight = 10
   [[menu.main]]
+    identifier = "books"
+    name = "Books"
+    url = "/books/"
+    weight = 15
+  [[menu.main]]
     identifier = "archive"
     name = "Archive"
     url = "/archives/"
@@ -102,3 +107,9 @@ buildExpired = false
   guessSyntax = true
   lineNos = false
   style = "monokai" 
+
+[markup.goldmark.renderer]
+  unsafe = true  # Allow raw HTML in markdown files
+
+# Ignore specific warnings
+ignoreLogs = ['warning-goldmark-raw-html'] 

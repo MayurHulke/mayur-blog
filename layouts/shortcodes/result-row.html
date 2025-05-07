@@ -1,0 +1,14 @@
+{{ $method := .Get "method" }}
+{{ $value := .Get "value" }}
+{{ $highlight := $.Page.Scratch.Get "highlight" | default "" }}
+{{ $precision := $.Page.Scratch.Get "precision" | default "2" }}
+
+<tr {{ if eq $method $highlight }}class="highlight"{{ end }}>
+  <td>{{ $method }}</td>
+  <td>{{ $value }}</td>
+  {{ range $i, $e := .Params }}
+    {{ if and (ne $i "method") (ne $i "value") }}
+      <td>{{ $e }}</td>
+    {{ end }}
+  {{ end }}
+</tr> 

@@ -2,33 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:65502/tags/ai/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/tags/book-review/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/tags/machine-learning/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/books/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/tags/computation/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/posts/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/tags/diffusion-models/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/tags/reinforcement-learning/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/posts/diffusion-policy/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/posts/rl/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/tags/epistemology/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/tags/</loc>
-    <lastmod>2024-04-20T11:30:03+00:00</lastmod>
+    <loc>http://localhost:1313/tags/evolution/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/archives/</loc>
+    <loc>http://localhost:1313/tags/generative-ai/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/categories/</loc>
+    <loc>http://localhost:1313/tags/imitation-learning/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/faq/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:65502/search/</loc>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/physics/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quantum-mechanics/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/robotics/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/the-fabric-of-reality/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/consciousness/</loc>
+    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/godel-escher-bach/</loc>
+    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/logic/</loc>
+    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mathematics/</loc>
+    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/recursion/</loc>
+    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/faq/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

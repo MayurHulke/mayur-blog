@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Mayur</title>
-    <link>http://localhost:65502/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Mayur</description>
-    <generator>Hugo -- 0.138.0</generator>
+    <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Apr 2024 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65502/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reinforcement learning (without neural networks)</title>
-      <link>http://localhost:65502/posts/rl/</link>
-      <pubDate>Sat, 20 Apr 2024 11:30:03 +0000</pubDate>
-      <guid>http://localhost:65502/posts/rl/</guid>
-      <description>A detailed introduction to reinforcement learning fundamentals without neural networks</description>
+      <title>Diffusion Policy: Unnoising Your Robot&#39;s Moves</title>
+      <link>http://localhost:1313/posts/diffusion-policy/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/diffusion-policy/</guid>
+      <description>A deep dive into Cheng Chi et al.&amp;#39;s Diffusion Policy: how it works, where it wins, what still hurts, and what the community is fixing next.</description>
     </item>
   </channel>
 </rss>
