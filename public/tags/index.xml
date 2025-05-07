@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Mayur</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://mayurhulke.github.io/tags/</link>
     <description>Recent content in Tags on Mayur</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mayurhulke.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Review</title>
-      <link>http://localhost:1313/tags/book-review/</link>
+      <link>https://mayurhulke.github.io/tags/book-review/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/book-review/</guid>
+      <guid>https://mayurhulke.github.io/tags/book-review/</guid>
       <description></description>
     </item>
     <item>
       <title>Computation</title>
-      <link>http://localhost:1313/tags/computation/</link>
+      <link>https://mayurhulke.github.io/tags/computation/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/computation/</guid>
+      <guid>https://mayurhulke.github.io/tags/computation/</guid>
       <description></description>
     </item>
     <item>
       <title>Diffusion Models</title>
-      <link>http://localhost:1313/tags/diffusion-models/</link>
+      <link>https://mayurhulke.github.io/tags/diffusion-models/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/diffusion-models/</guid>
+      <guid>https://mayurhulke.github.io/tags/diffusion-models/</guid>
       <description></description>
     </item>
     <item>
       <title>Epistemology</title>
-      <link>http://localhost:1313/tags/epistemology/</link>
+      <link>https://mayurhulke.github.io/tags/epistemology/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/epistemology/</guid>
+      <guid>https://mayurhulke.github.io/tags/epistemology/</guid>
       <description></description>
     </item>
     <item>
       <title>Evolution</title>
-      <link>http://localhost:1313/tags/evolution/</link>
+      <link>https://mayurhulke.github.io/tags/evolution/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/evolution/</guid>
+      <guid>https://mayurhulke.github.io/tags/evolution/</guid>
       <description></description>
     </item>
     <item>
       <title>Generative AI</title>
-      <link>http://localhost:1313/tags/generative-ai/</link>
+      <link>https://mayurhulke.github.io/tags/generative-ai/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/generative-ai/</guid>
+      <guid>https://mayurhulke.github.io/tags/generative-ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Imitation Learning</title>
-      <link>http://localhost:1313/tags/imitation-learning/</link>
+      <link>https://mayurhulke.github.io/tags/imitation-learning/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/imitation-learning/</guid>
+      <guid>https://mayurhulke.github.io/tags/imitation-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>http://localhost:1313/tags/philosophy/</link>
+      <link>https://mayurhulke.github.io/tags/philosophy/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/philosophy/</guid>
+      <guid>https://mayurhulke.github.io/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Physics</title>
-      <link>http://localhost:1313/tags/physics/</link>
+      <link>https://mayurhulke.github.io/tags/physics/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/physics/</guid>
+      <guid>https://mayurhulke.github.io/tags/physics/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantum Mechanics</title>
-      <link>http://localhost:1313/tags/quantum-mechanics/</link>
+      <link>https://mayurhulke.github.io/tags/quantum-mechanics/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/quantum-mechanics/</guid>
+      <guid>https://mayurhulke.github.io/tags/quantum-mechanics/</guid>
       <description></description>
     </item>
     <item>
       <title>Robotics</title>
-      <link>http://localhost:1313/tags/robotics/</link>
+      <link>https://mayurhulke.github.io/tags/robotics/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/robotics/</guid>
+      <guid>https://mayurhulke.github.io/tags/robotics/</guid>
       <description></description>
     </item>
     <item>
       <title>Consciousness</title>
-      <link>http://localhost:1313/tags/consciousness/</link>
+      <link>https://mayurhulke.github.io/tags/consciousness/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/consciousness/</guid>
+      <guid>https://mayurhulke.github.io/tags/consciousness/</guid>
       <description></description>
     </item>
     <item>
       <title>Logic</title>
-      <link>http://localhost:1313/tags/logic/</link>
+      <link>https://mayurhulke.github.io/tags/logic/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/logic/</guid>
+      <guid>https://mayurhulke.github.io/tags/logic/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathematics</title>
-      <link>http://localhost:1313/tags/mathematics/</link>
+      <link>https://mayurhulke.github.io/tags/mathematics/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mathematics/</guid>
+      <guid>https://mayurhulke.github.io/tags/mathematics/</guid>
       <description></description>
     </item>
     <item>
       <title>Recursion</title>
-      <link>http://localhost:1313/tags/recursion/</link>
+      <link>https://mayurhulke.github.io/tags/recursion/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/recursion/</guid>
+      <guid>https://mayurhulke.github.io/tags/recursion/</guid>
       <description></description>
     </item>
   </channel>
