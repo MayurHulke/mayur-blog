@@ -51,7 +51,7 @@ buildExpired = false
   url = "https://github.com/MayurHulke"
 
 [[params.socialIcons]]
-  name = "twitter"
+  name = "x"
   url = "https://twitter.com/LetstalkRobots"
 
 [[params.socialIcons]]
