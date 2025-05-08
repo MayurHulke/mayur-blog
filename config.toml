@@ -47,10 +47,6 @@ buildExpired = false
   url = "https://www.youtube.com/@LetsTalkWithRobots"
 
 [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/MayurHulke"
-
-[[params.socialIcons]]
   name = "x"
   url = "https://twitter.com/LetstalkRobots"
 
@@ -61,6 +57,10 @@ buildExpired = false
 [[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/mayurhulke/"
+
+[[params.socialIcons]]
+  name = "reddit"
+  url = "https://www.reddit.com/user/LetsTalkWithRobots/"
 
 [[params.socialIcons]]
   name = "link"
