@@ -59,58 +59,47 @@ table th {
   }
 }
 
-/* Dropdown Table of Contents */
-.dropdown-toc {
+/* Custom styling for TOC */
+.toc {
   margin: 1em 0;
   border: 1px solid var(--border);
   border-radius: 5px;
-  background-color: #f5f5f5;
+  background-color: #f5f5f5 !important;
+  padding: 0.4em;
 }
 
-.toc-dropdown summary {
-  padding: 0.75em 1em;
+.dark .toc {
+  background-color: #222 !important;
+}
+
+.toc details summary {
   cursor: pointer;
   font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.toc-dropdown summary:hover {
-  background-color: var(--border);
+.toc .details {
+  display: inline;
+  font-weight: 500;
 }
 
-.toc-dropdown summary::marker,
-.toc-dropdown summary::-webkit-details-marker {
-  display: none;
+.toc .inner {
+  margin: 5px 20px 0;
+  padding: 0 10px;
 }
 
-.toc-dropdown .inner {
-  padding: 0.75em 1em;
-  border-top: 1px solid var(--border);
-}
-
-.toc-dropdown .inner ul {
-  margin-top: 0.25em;
-}
-
-.toc-dropdown .inner li {
-  margin-bottom: 0.25em;
-}
-
-.toc-dropdown summary .details::before {
-  content: "▼";
+.toc details summary::before {
+  content: "▶";
   margin-right: 0.5em;
   display: inline-block;
   transition: transform 0.2s;
 }
 
-.toc-dropdown:not([open]) summary .details::before {
-  content: "▶";
+.toc details[open] summary::before {
+  content: "▼";
   margin-right: 0.5em;
 }
 
-/* Dark mode support for TOC */
-.dark .dropdown-toc {
-  background-color: #222;
+/* Remove custom dropdown TOC styles since we're using PaperMod's TOC now */
+.dropdown-toc {
+  display: none;
 }
