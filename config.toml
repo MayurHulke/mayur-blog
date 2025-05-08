@@ -37,11 +37,9 @@ buildExpired = false
   math = true
 
 [params.homeInfoParams]
-  Title = "👋 Welcome to Mayur's Blog"
+  Title = "👋 Hey, it's Mayur"
   Content = """
-  Hi, I'm Mayur. I document my learning and projects here. I've been building robots since age 14, winning 30+ national competitions. Now I'm a Staff Robotics & Computer Vision engineer in London.
-
-  I'm drawn to deep ideas and trying to understand fundamental truths about existence. In my free time, I enjoy getting lost in thought and reading books on train journeys.
+  and I build robots. Big Hero Six and iRobot fanboy wich led to winning 30+ national robotics competitions, currently a Staff Robotics & AI engineer in London. I’m dumping all my learning notes in this blog to help out someone like me who loves building robots. 
   """
 
 [[params.socialIcons]]
