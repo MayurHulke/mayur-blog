@@ -5,6 +5,7 @@ tags: ["AI", "Privacy", "Python", "Document Analysis", "LLM"]
 draft: true
 description: "Building a completely offline AI document analysis tool that respects privacy"
 ShowReadingTime: true
+ShowToc: true
 ---
 
 ## The Privacy Challenge in Document Analysis

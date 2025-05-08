@@ -3,6 +3,7 @@ title: "FAQ"
 layout: "single"
 hidemeta: true
 comments: false
+hideSocialIcons: true
 ---
 
 # Frequently Asked Questions

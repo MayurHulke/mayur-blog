@@ -6,6 +6,7 @@ tags: ["robotics", "imitation learning", "diffusion models", "generative AI"]
 draft: false
 author: "Mayur Hulke"
 ShowReadingTime: true
+ShowToc: true
 ---
 
 > **TL;DR** <abbr title="Diffusion Policy: A robot control method that gradually refines random actions into precise movements">Diffusion Policy</abbr> borrows the *denoising* trick from <abbr title="Stable Diffusion: A popular AI image generation model that creates images by gradually removing noise">Stable Diffusion</abbr> (start with pure noise, gradually refine) and applies it to a short horizon of robot actions instead of pixels.

@@ -5,6 +5,7 @@ tags: ["Reinforcement learning", "Machine Learning", "AI"]
 draft: true
 description: "A detailed introduction to reinforcement learning fundamentals without neural networks"
 ShowReadingTime: true
+ShowToc: true
 ---
 ![Status: Currently Writing](https://img.shields.io/badge/Status-Currently%20Writing-blue)
 **Estimated Reading Time: 15 min**
