@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mayur</title>
-    <link>https://mayurhulke.github.io/</link>
+    <link>https://mayurhulke.com/</link>
     <description>Recent content on Mayur</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mayurhulke.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mayurhulke.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diffusion Policy: Unnoising Your Robot&#39;s Moves</title>
-      <link>https://mayurhulke.github.io/posts/diffusion-policy/</link>
+      <link>https://mayurhulke.com/posts/diffusion-policy/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://mayurhulke.github.io/posts/diffusion-policy/</guid>
+      <guid>https://mayurhulke.com/posts/diffusion-policy/</guid>
       <description>A deep dive into Cheng Chi et al.&amp;#39;s Diffusion Policy: how it works, where it wins, what still hurts, and what the community is fixing next.</description>
     </item>
     <item>
       <title>The Fabric of Reality</title>
-      <link>https://mayurhulke.github.io/books/the-fabric-of-reality/</link>
+      <link>https://mayurhulke.com/books/the-fabric-of-reality/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://mayurhulke.github.io/books/the-fabric-of-reality/</guid>
+      <guid>https://mayurhulke.com/books/the-fabric-of-reality/</guid>
       <description>A review of the book: The Fabric of Reality by David Deutsch</description>
     </item>
     <item>
       <title>Gödel, Escher, Bach – An Eternal Golden Braid</title>
-      <link>https://mayurhulke.github.io/books/godel-escher-bach/</link>
+      <link>https://mayurhulke.com/books/godel-escher-bach/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://mayurhulke.github.io/books/godel-escher-bach/</guid>
+      <guid>https://mayurhulke.com/books/godel-escher-bach/</guid>
       <description>A review of the book: Gödel, Escher, Bach by Douglas Hofstadter</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>https://mayurhulke.github.io/faq/</link>
+      <link>https://mayurhulke.com/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mayurhulke.github.io/faq/</guid>
+      <guid>https://mayurhulke.com/faq/</guid>
       <description>&lt;h1 id=&#34;frequently-asked-questions&#34;&gt;Frequently Asked Questions&lt;/h1&gt;
 &lt;h2 id=&#34;what-is-this-blog-about&#34;&gt;What is this blog about?&lt;/h2&gt;
 &lt;p&gt;This blog contains my learning notes, insights, and projects related to AI, Robotics, and Computer Vision. I share detailed explanations of complex concepts, implementation details, and my personal experiences working with these technologies.&lt;/p&gt;
