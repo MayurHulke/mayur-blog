@@ -39,11 +39,9 @@ buildExpired = false
 [params.homeInfoParams]
   Title = "👋 Welcome to Mayur's Blog"
   Content = """
-  Hi, this is Mayur. I'm documenting my learning notes & projects in this blog. I love building robots 🤖 been doing so since I was 14 (robowars used to be my Fav competition and won 30+ National robotics competitions growing up) 🏆
+  Hi, I'm Mayur. I document my learning and projects here. I've been building robots since age 14, winning 30+ national competitions. Now I'm a Staff Robotics & Computer Vision engineer in London.
 
-  Now I'm a Staff Robotics & Computer Vision engineer from London, England, working with big boys doing serious stuff I guess 😳
-  
-  I have a thing for deep ideas 💭 and trying to find the obvious truths around our existence (it's definitely harder than it sounds). During my limited free time, I enjoy getting lost in them and for some reason I enjoy reading books on long train journeys 🚆.
+  I'm drawn to deep ideas and trying to understand fundamental truths about existence. In my free time, I enjoy getting lost in thought and reading books on train journeys.
   """
 
 [[params.socialIcons]]
