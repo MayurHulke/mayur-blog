@@ -61,7 +61,7 @@ While language AI gets attention for writing essays or generating code, physical
 - Tackling dangerous jobs like disaster cleanup or hazardous waste handling
 - Managing household chores that consume our limited free time
 
-"The true test of AI won't be whether it writes a convincing email," notes robotics pioneer Dr. Helen Marquez. "It will be whether it can help an 85-year-old safely get into the shower, fold laundry while you're at work, or reorganize your garage while respecting which tools are valuable and which are junk."[^8]
+The true test of AI won't be whether it writes a convincing email,It will be whether it can help an 85-year-old safely do her day to day tasks at home [^8]
 
 ## When Robot Aid Becomes Second Nature?
 
