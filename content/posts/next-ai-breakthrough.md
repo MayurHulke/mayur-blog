@@ -23,7 +23,7 @@ ChatGPT and similar AI systems got smart by consuming billions of sentences from
 
 To learn how to handle physical objects, robots need recordings of actual movements: the precise angles of robot joints, the forces applied when gripping objects, and the subtle adjustments made when something starts to slip. This information simply doesn't exist in large quantities online.[^2]
 
-"Teaching a robot to unload groceries is like trying to learn tennis without watching anyone play," explains Dr. Maya Rodriguez, robotics researcher at Stanford. "The internet has plenty of people *talking* about tennis, but very few recordings of the exact muscle movements needed to hit a backhand."
+Teaching a robot to unload groceries is like trying to learn tennis without watching anyone play. The internet has plenty of people *talking* about tennis, but very few recordings of the exact muscle movements needed to hit a backhand.
 
 Collecting this data in the real world is painfully slow. Human operators must guide robots through tasks repeatedly—a process that produces minutes of useful data per hour of work, rather than the terabytes that language AI systems consume.[^3]
 
@@ -31,25 +31,25 @@ Collecting this data in the real world is painfully slow. Human operators must g
 
 How are researchers solving this data problem? By building incredibly detailed virtual worlds where robot systems can practice millions of times before touching anything real.
 
-Today's graphics processors (GPUs) can simulate thousands of kitchens, workshops, or warehouses simultaneously, each with their own physics. A robot that would need months to practice a task in reality can gain the same experience in just hours of simulation time.[^4]
+Today's graphics processors (<abbr title="Graphics Processing Units: specialized computer chips that can perform many calculations simultaneously, making them ideal for simulating physics and 3D environments">GPUs</abbr>) can simulate thousands of kitchens, workshops, or warehouses simultaneously, each with their own physics. A robot that would need months to practice a task in reality can gain the same experience in just hours of simulation time.[^4]
 
-"Think of it like a flight simulator on steroids," says Jamie Chen, lead engineer at Everyday Robotics. "A pilot practices emergency scenarios virtually because crashing real planes is expensive and dangerous. Similarly, we can let robots 'crash' virtually thousands of times until they learn to handle your grandmother's fine china correctly."
+Think of it like a flight simulator on steroids. A pilot practices emergency scenarios virtually because crashing real planes is expensive and dangerous. Similarly, we can let robots 'crash' virtually thousands of times until they learn to handle your grandmother's fine china correctly.
 
-Early simulators required engineers to manually model every spoon and lamp. The newest systems are far more creative, using AI image generators (like those behind DALL-E and Midjourney) to create endless variations of rooms, furniture, and objects automatically.[^5]
+Early simulators required engineers to manually model every spoon and lamp. The newest systems are far more creative, using AI image generators (like those behind <abbr title="DALL-E: An AI system developed by OpenAI that creates images from text descriptions">DALL-E</abbr> and <abbr title="Midjourney: An AI program that creates images from textual descriptions">Midjourney</abbr>) to create endless variations of rooms, furniture, and objects automatically.[^5]
 
-Even more impressive, researchers program these simulations with "domain randomization"—deliberately varying how slippery surfaces are, how heavy objects feel, or how bright lights shine—forcing robot systems to develop adaptable skills rather than brittle, specific ones.[^6]
+Even more impressive, researchers program these simulations with "<abbr title="Domain randomization: A technique where the simulator randomly varies colors, textures, lighting, and physics properties to help robots learn skills that transfer to the real world">domain randomization</abbr>"—deliberately varying how slippery surfaces are, how heavy objects feel, or how bright lights shine—forcing robot systems to develop adaptable skills rather than brittle, specific ones.[^6]
 
 ## The Multimodal Magic
 
-All this virtual practice feeds into a new generation of AI systems that combine vision, language understanding, and physical control. These models can watch through cameras, listen to requests like "please put away the groceries," and generate the precise movements needed to complete the task.
+All this virtual practice feeds into a new generation of AI systems that combine vision, language understanding, and physical control. These <abbr title="Multimodal systems: AI models that can process and connect multiple types of data like images, text, and movement simultaneously">multimodal</abbr> models can watch through cameras, listen to requests like "please put away the groceries," and generate the precise movements needed to complete the task.
 
-NVIDIA's open-source GR00T N1 system demonstrates this approach.[^7] It processes visual information and verbal instructions, then controls robotic limbs to manipulate objects in the real world. The system learns from a combination of:
+NVIDIA's open-source <abbr title="GR00T: Generalist Robot Zero-shot Transfer, a system that combines language, vision, and robotic control capabilities">GR00T N1</abbr> system demonstrates this approach.[^7] It processes visual information and verbal instructions, then controls robotic limbs to manipulate objects in the real world. The system learns from a combination of:
 
 - Videos of humans performing everyday tasks
 - Demonstrations from human-controlled robots
-- Millions of hours in simulated environments
+- Millions of hours in <abbr title="Simulation environments: Virtual worlds with realistic physics where robots can practice tasks safely">simulated environments</abbr>
 
-This creates what engineers call a "physical API"—essentially, software that can affect the physical world directly.
+This creates what engineers call a "<abbr title="Physical API: An interface that lets software control physical objects in the real world">physical API</abbr>"—essentially, software that can affect the physical world directly.
 
 ## Why Physical AI Will Change Everything?
 
@@ -89,3 +89,13 @@ The race to make that moment arrive is accelerating every day.[^9]
 [^8]: Savva, M., et al. (2019). "HABITAT: A Platform for Embodied AI Research". IEEE/CVF International Conference on Computer Vision (ICCV). https://arxiv.org/abs/1904.01201
 
 [^9]: Deepmind. (2023). "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control". https://deepmind.google/discover/blog/rt-2-vision-language-action-models-transfer-web-knowledge-to-robotic-control/
+
+## Technical Terms Glossary
+
+- **AI (Artificial Intelligence)**: Computer systems that can perform tasks normally requiring human intelligence
+- **API (Application Programming Interface)**: A connection that allows different software systems to talk to each other
+- **Domain Randomization**: Technique where simulation parameters are randomly varied to help robots adapt to real-world conditions
+- **GPU (Graphics Processing Unit)**: Specialized computer chips that can perform many calculations simultaneously
+- **Multimodal AI**: Systems that can process and connect multiple types of input (text, images, sound) simultaneously
+- **Physical API**: Software interface that controls objects in the physical world
+- **Sim-to-Real Transfer**: The ability to apply skills learned in simulation to real-world tasks
