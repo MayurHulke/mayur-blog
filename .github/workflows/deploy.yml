@@ -59,9 +59,11 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo version
-          echo "Building with baseURL: ${{ steps.pages.outputs.base_url }}/"
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          echo "Building with baseURL from config.toml"
+          hugo --gc --minify
           touch public/.nojekyll
+          # Ensure CNAME file is in the public directory
+          echo "mayurhulke.com" > public/CNAME
           echo "Contents of public directory:"
           ls -la public/
           
