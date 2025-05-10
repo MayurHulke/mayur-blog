@@ -1,6 +1,6 @@
 ---
 title: "Book Review: Gödel, Escher, Bach - An Eternal Golden Braid"
-date: 2025-04-15T10:00:00+00:00
+date: 2025-04-12T16:20:00+00:00
 description: "A review of the book: Gödel, Escher, Bach by Douglas Hofstadter"
 book_author: "Douglas R. Hofstadter"
 book_year: "1999 (paperback)"

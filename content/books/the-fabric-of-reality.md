@@ -1,6 +1,6 @@
 ---
 title: "Book Review: The Fabric of Reality"
-date: 2025-05-15T10:00:00+00:00
+date: 2025-05-05T08:40:00+00:00
 description: "A review of the book: The Fabric of Reality by David Deutsch"
 book_author: "David Deutsch"
 book_year: "1998 (audiobook)"
