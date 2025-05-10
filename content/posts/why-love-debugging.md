@@ -14,6 +14,8 @@ We've all been there. You're deep in the flow of building a new feature when tha
 
 The best software engineers don't run from bugs, they actively hunt them down. When you first notice this pattern during your early career, it might seem counterintuitive. Why would top performers chase problems instead of showcasing their skills through fresh features? The answer can transform your approach to engineering.
 
+{{< figure src="/images/debugging/bugs.png" caption="Debugging masters see bugs not as interruptions, but as opportunities to build deeper system understanding." >}}
+
 ## Why You Should Love Bugs
 
 > **"If debugging is the process of removing software bugs, then programming must be the process of putting them in."** — Edsger W. Dijkstra, 1960s lecture quip
@@ -41,6 +43,8 @@ The most common mistake even experienced engineers make is settling for surface-
 ## From Finding to Fixing Systematically
 
 > **"Fix the cause, not the symptom."** — Steve Maguire, Writing Solid Code (1993)
+
+{{< figure src="/images/debugging/blast_radius.png" caption="Assessing the 'blast radius' helps prioritize and communicate impact - the first step before any effective debugging begins." >}}
 
 Before fixing anything, it's crucial to assess and document the "blast radius" by asking when the issue started, who and where it impacts, and what product versions are affected. This helps you communicate frequent updates to leadership and stakeholders—even if there's no fix yet—maintaining trust and reducing panic.
 
