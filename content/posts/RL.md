@@ -17,7 +17,7 @@ In this post, you'll learn how to specify a real-world problem as a Markov Decis
 
 Let's kick things off with a simple example. Imagine you're playing a video game where you're navigating through a maze. At first, you might bump into walls or take wrong turns, but over time, you learn the layout, figure out where the traps are, and start making smarter moves to reach the end faster and with higher scores. This process of learning through experience, where every choice brings you closer to mastering the maze, is a lot like what we see in reinforcement learning (RL), but on a broader and more complex scale.
 
-![The Setting](/images/the_setting.png)
+![The Setting](/images/reinforcement-learning/rl-setting.png)
 
 
 In RL, the concept is pretty straightforward: we have an agent, which could be anything from a robot to a software program, trying to figure out the best way to accomplish a task. The agent explores its environment, making decisions and learning from the outcomes of those decisions. The feedback comes in the form of rewards - positive for good decisions that move it closer to its goal, and negative for decisions that don't.
@@ -32,20 +32,20 @@ This is essentially reinforcement learning (RL), which doesn't change much wheth
 
 In simple terms, we often assume the agent can see everything it needs to make the best choices, although that's not always true in real life. For our discussions, let's stick with this idea because it makes the **math easier**. We'll say the agent knows the state of its world at every step. Starting from step zero, the agent sees the world state (let's call this $S_0$), chooses an action ($A_0$), 
 
-![The Setting](/images/3.png)
+![The Setting](/images/reinforcement-learning/rl-state-action.png)
 
 and based on that, the world changes to a new state ($S_1$), and the agent gets a reward ($R_1$). 
 
-![The Setting](/images/4.png)
+![The Setting](/images/reinforcement-learning/rl-reward.png)
 
 The agent then chooses an action, A1. 
 
-![The Setting](/images/5.png)
+![The Setting](/images/reinforcement-learning/rl-next-action.png)
 
 At timestep two, This process keeps repeating, with the agent continuously adjusting its actions based on the world's state and the rewards it receives.
 This interaction is manifest as a sequence of `states`, `actions`, and `rewards`. 
 
-![The Setting](/images/6.png)
+![The Setting](/images/reinforcement-learning/rl-process.png)
 
 $$
 S_0, A_0, \underline{\mathbf{R_1}}, S_1, A_1, \underline{\mathbf{R_2}}, S_2, A_2, \underline{\mathbf{R_3}}, S_3, A_3, \underline{\mathbf{R_4}}, \ldots
@@ -93,7 +93,7 @@ We've talked about the wide-ranging uses of Reinforcement Learning, each defined
 
 Up to this point, we've examined the concept of reward through a simple analogy: navigating a maze in a video game. In this scenario, the layout of the maze represents the **state**, your decisions on which turns to take are the **actions**, and the **reward** is the score or feedback you receive from the game, such as points or advancing to the next level. Just like a reinforcement learning agent, you aim to maximize this reward by learning from each interaction, which reflects the process of trial and error and gradual improvement similar to training within a Reinforcement Learning framework.
 
-![The Reward Hypothesis](/images/agent.gif)
+![The Reward Hypothesis](/images/reinforcement-learning/rl-agent.gif)
 
 However, the Reinforcement Learning Framework generalizes this to have all agents define their objectives in terms of maximizing expected cumulative rewards. But what does **'reward'** signify for a robot learning to walk? Could the environment act as a coach, giving feedback on the robot's technique, rewarding good form? Yet, the reward in this context might seem subjective and unscientific. **What criteria determine a 'good' walk versus a 'bad' one, and how do we quantify this in our models?**
 
