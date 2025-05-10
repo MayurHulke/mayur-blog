@@ -8,9 +8,33 @@ ShowReadingTime: true
 ShowToc: true
 ---
 
+<style>
+.example-box {
+  background-color: #f8f9fa;
+  border-left: 4px solid #6c757d;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.example-box h3 {
+  margin-top: 0;
+  color: #495057;
+}
+
+.dark .example-box {
+  background-color: #343a40;
+  border-left: 4px solid #adb5bd;
+}
+
+.dark .example-box h3 {
+  color: #e9ecef;
+}
+</style>
+
 We've all been there. You're deep in the flow of building a new feature when that dreaded notification arrives: "Critical bug blocking release." Most of us instinctively groan, but over the years, you can learn to recognize these moments as hidden opportunities.
 
-> **"...a good part of the remainder of my life was going to be spent in finding errors in my own programs."** — Maurice Wilkes, reflecting on EDSAC work, 1949 memoir
+> **"...a good part of the remainder of my life was going to be spent in finding errors in my own programs."**[^quote1]
 
 The best software engineers don't run from bugs, they actively hunt them down. When you first notice this pattern during your early career, it might seem counterintuitive. Why would top performers chase problems instead of showcasing their skills through fresh features? The answer can transform your approach to engineering.
 
@@ -18,7 +42,7 @@ The best software engineers don't run from bugs, they actively hunt them down. W
 
 ## Why You Should Love Bugs
 
-> **"If debugging is the process of removing software bugs, then programming must be the process of putting them in."** — Edsger W. Dijkstra, 1960s lecture quip
+> **"If debugging is the process of removing software bugs, then programming must be the process of putting them in."**[^quote2]
 
 Debugging forces you to develop an intimate understanding of how systems truly work together. A single day spent tracing an elusive bug often teaches more about your codebase than a week of implementing new functionality. You're compelled to follow data as it flows across boundaries, uncovering the actual architecture rather than the one in the documentation.
 
@@ -30,7 +54,7 @@ As you advance in your career, you'll notice that senior and staff engineers app
 
 ## Debugging As a Premium Skill
 
-> **"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."** — Brian Kernighan, The Practice of Programming (1999)
+> **"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."**[^quote7]
 
 It's good to refine an approach that turns chaos into clarity through repeated debugging sessions. You can start by being proactive rather than reactive. Regularly scanning dashboards, crash logs, and user feedback helps spot issues before they escalate to critical status. When prioritizing, it's best to consider both severity and frequency—a minor bug affecting thousands demands attention before a major one affecting just a handful of users.
 
@@ -42,7 +66,7 @@ The most common mistake even experienced engineers make is settling for surface-
 
 ## From Finding to Fixing Systematically
 
-> **"Fix the cause, not the symptom."** — Steve Maguire, Writing Solid Code (1993)
+> **"Fix the cause, not the symptom."**[^quote3]
 
 ![Assessing the 'blast radius' helps prioritize and communicate impact - the first step before any effective debugging begins.](/images/debugging/blast_radius.png)
 
@@ -56,11 +80,11 @@ Before implementing a fix, you should deeply understand the end-to-end flow, the
 
 ## Advanced Techniques That Pay Dividends
 
-> **"The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."** — Brian Kernighan, "Unix for Beginners" (1979)
+> **"The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."**[^quote4]
 
 Over time, you can incorporate more advanced techniques that dramatically improve debugging efficiency. Proper observability through strategic logging, traces, and metrics can slash resolution times. For every bug you encounter, it's good to write a failing test first, ensuring it never returns. Static analysis tools with strict rules can catch entire categories of issues before they reach production.
 
-> **"Testing shows the presence, not the absence, of bugs."** — Edsger W. Dijkstra, NATO Software Engineering Conf. (1969)
+> **"Testing shows the presence, not the absence, of bugs."**[^quote5]
 
 This sober reminder from Dijkstra helps us maintain the right mindset: even when all tests pass, we can only say "no bugs were found," never "no bugs exist." It's why comprehensive test suites are so valuable, yet we must remain vigilant for edge cases they miss.
 
@@ -70,7 +94,7 @@ Attending CIR (Critical Incident) reviews, learning from outages, and applying t
 
 ## Why This Matters Even More in the Age of AI 🤖
 
-> **"Beware of bugs in the above code; I have only proved it correct, not tried it."** — Donald Knuth, in a 1977 correspondence about TEX
+> **"Beware of bugs in the above code; I have only proved it correct, not tried it."**[^quote6]
 
 As LLMs churn out boilerplate at light-speed, humans who can diagnose the unpredictable edge cases become priceless. Debugging isn't just future-proof, it's future-pivotal.
 
@@ -102,7 +126,10 @@ For those interested in specific techniques, here's a comprehensive debugging fr
 
 11. **Blameless Post-Mortems** – Trigger → Impact → Detection → Fix → Actions. Improve systems, not people-blame. Focus on systemic improvements that would prevent similar issues.
 
-    **Real-World Example:** At a production computer vision company, we implemented a simple but powerful CIR (Critical Incident Review) process. As our models were deployed to more customers, they inevitably encountered new data patterns and edge cases in production, causing performance degradation that became harder to track and debug.
+    <div class="example-box">
+    <h3>Real-World Example: Critical Incident Reviews</h3>
+    
+    At a production computer vision company, we implemented a simple but powerful CIR (Critical Incident Review) process. As our models were deployed to more customers, they inevitably encountered new data patterns and edge cases in production, causing performance degradation that became harder to track and debug.
     
     The problem was visibility—bugs and failures in live systems weren't reaching the wider engineering team, making it difficult to build shared context, spot patterns, and respond quickly.
     
@@ -114,6 +141,7 @@ For those interested in specific techniques, here's a comprehensive debugging fr
     - How can we prevent it?
     
     The engineer who led the fix would then run a short CIR deep dive to bring others up to speed. This approach distributed expertise, encouraged collective debugging, and surfaced better ideas—you never know who on your team holds a key insight that could unlock a difficult problem.
+    </div>
 
 12. **Version-Control Forensics** – Use `git bisect`, `blame`, and diff-driven bisection to binary-search your commit history and pinpoint exactly which change introduced the regression. This is a daily lifesaver for bugs that "used to work yesterday," especially as AI assistants generate more code diffs.
 
@@ -135,35 +163,35 @@ But in those dark moments, I've found comfort in the words of the computing pion
 
 Here are the quotes I return to when debugging seems impossible—timeless insights from the OGs of software engineering that help me keep going:
 
-> **"...a good part of the remainder of my life was going to be spent in finding errors in my own programs."** — Maurice Wilkes, reflecting on EDSAC work, 1949 memoir
+> **"...a good part of the remainder of my life was going to be spent in finding errors in my own programs."**[^quote1]
 
 This was the moment when one of computing's earliest pioneers realized what we now all know: debugging isn't just part of the job—it often *is* the job. If Maurice Wilkes could make peace with this in 1949, using paper printouts and physical switches, we can certainly embrace it with our modern tools.
 
-> **"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."** — Brian Kernighan, The Practice of Programming (1999)
+> **"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."**[^quote7]
 
 Kernighan's law reminds me that my struggles aren't from lack of skill but from the inherent complexity of the task. When I feel inadequate during a difficult debugging session, I remember that this feeling is by design—and I should focus on writing clearer code in the first place.
 
-> **"If debugging is the process of removing software bugs, then programming must be the process of putting them in."** — Edsger W. Dijkstra, 1960s lecture quip
+> **"If debugging is the process of removing software bugs, then programming must be the process of putting them in."**[^quote2]
 
 This always makes me smile, no matter how frustrated I am. It reframes the entire problem: bugs aren't unexpected failures in our perfect systems; they're the natural byproducts of our imperfect, human creation process.
 
-> **"The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."** — Brian Kernighan, "Unix for Beginners" (1979)
+> **"The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."**[^quote4]
 
 When I find myself reaching for increasingly complex debugging tools, this quote grounds me. Sometimes the simplest approaches—thinking methodically and adding strategic log statements—are still the most powerful.
 
-> **"Fix the cause, not the symptom."** — Steve Maguire, Writing Solid Code (1993)
+> **"Fix the cause, not the symptom."**[^quote3]
 
 The core of root-cause analysis in one sentence. This mantra has saved me countless hours of recurring bugs and repeated fixes.
 
-> **"Testing shows the presence, not the absence, of bugs."** — Edsger W. Dijkstra, NATO Software Engineering Conf. (1969)
+> **"Testing shows the presence, not the absence, of bugs."**[^quote5]
 
 A humbling reminder that even our most thorough testing can only prove that bugs exist, never that they don't. It's why we must remain vigilant and humble, even when all tests pass.
 
-> **"Given enough eyeballs, all bugs are shallow."** (Linus's Law) — Eric S. Raymond, The Cathedral and the Bazaar (1999)
+> **"Given enough eyeballs, all bugs are shallow."** (Linus's Law)[^quote8]
 
 When I'm stuck, this reminds me to bring in another pair of eyes. The bug that's been tormenting me for days might be obvious to someone with a different perspective.
 
-> **"Beware of bugs in the above code; I have only proved it correct, not tried it."** — Donald Knuth, in a 1977 correspondence about TEX
+> **"Beware of bugs in the above code; I have only proved it correct, not tried it."**[^quote6]
 
 Even the legendary Donald Knuth—perhaps the greatest computer scientist of all time—acknowledged the gap between theoretical correctness and practical execution. If Knuth remained humble about his code, we should all approach debugging with the same humility.
 
@@ -184,3 +212,12 @@ When the debugging process feels overwhelming, I return to these quotes like old
 - **CIR**: Critical Incident Review, a process to analyze what happened after an incident to prevent similar issues
 - **Static Analysis**: Examining code without executing it to find potential problems
 - **Vibe Coding**: Writing code by copying patterns without deep understanding of the underlying systems or principles; often accelerated by AI tools
+
+[^quote1]: Maurice Wilkes, reflecting on EDSAC work, 1949 memoir
+[^quote2]: Edsger W. Dijkstra, 1960s lecture quip
+[^quote3]: Steve Maguire, Writing Solid Code (1993)
+[^quote4]: Brian Kernighan, "Unix for Beginners" (1979)
+[^quote5]: Edsger W. Dijkstra, NATO Software Engineering Conf. (1969)
+[^quote6]: Donald Knuth, in a 1977 correspondence about TEX
+[^quote7]: Brian Kernighan, The Practice of Programming (1999)
+[^quote8]: Eric S. Raymond, The Cathedral and the Bazaar (1999)
