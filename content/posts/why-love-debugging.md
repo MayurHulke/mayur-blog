@@ -1,6 +1,6 @@
 ---
 title: "Why I Learned to Love Debugging (And Why You Should Too)"
-date: 2025-05-08T15:04:00+01:00
+date: 2025-05-10T15:04:00+01:00
 tags: ["Software Engineering", "Debugging", "Career Growth", "Best Practices"]
 draft: false
 description: "How debugging transformed my engineering approach and why it's the most valuable skill in an Vibe Coding world"
