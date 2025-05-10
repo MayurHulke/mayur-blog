@@ -39,7 +39,7 @@ buildExpired = false
 [params.homeInfoParams]
   Title = "👋 Hey, it's Mayur"
   Content = """
-I build robots 🤖. Big Hero Six and iRobot fanboy 🎬 which led to winning 30+ national robotics competitions 🏆, currently a Staff Robotics & AI engineer in London 🇬🇧 working on Multi-agent Vision Language Action (VLA) systems. I'm dumping all my learning notes in this blog to help out someone like me who loves building robots 👨🏽‍💻.   """
+  I build robots 🤖. Big Hero Six and iRobot fanboy 🎬 which led to winning 30+ national robotics competitions 🏆, currently a Staff Robotics & AI engineer in London 🇬🇧 working on Multi-agent Vision Language Action (VLA) systems. I'm dumping all my learning notes in this blog to help out someone like me who loves building robots 👨🏽‍💻.   """
 
 [[params.socialIcons]]
   name = "youtube"
