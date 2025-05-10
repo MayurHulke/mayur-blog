@@ -1,13 +1,13 @@
 ---
-title: "The Fabric of Reality"
-date: 2025-05-07
+title: "Book Review: The Fabric of Reality"
+date: 2025-05-15T10:00:00+00:00
 description: "A review of the book: The Fabric of Reality by David Deutsch"
 book_author: "David Deutsch"
 book_year: "1998 (audiobook)"
 book_publisher: "Penguin Books"
 book_url: "https://www.penguin.co.uk/books/104/1047487/the-fabric-of-reality/9780140146905"
 cover_image: "/books/images/the-fabric-of-reality/cover.png"
-tags: ["book review", "physics", "quantum mechanics", "philosophy", "epistemology", "evolution", "computation"]
+tags: ["Book Review", "Physics", "Philosophy", "Quantum Mechanics", "book review", "epistemology", "evolution", "computation"]
 draft: false
 ShowReadingTime: true
 ShowShareButtons: true

@@ -1,6 +1,6 @@
 ---
 title: "Why the Next AI Breakthrough Has to Move Atoms, Not Words"
-date: 2025-05-08T10:00:00+00:00
+date: 2025-02-15T10:00:00+00:00
 tags: ["AI", "Robotics", "Future Tech", "Everyday Innovation"]
 draft: false
 description: "As AI masters language, the next frontier is physical intelligence - systems that can actually help in your home and daily life."

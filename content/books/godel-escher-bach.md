@@ -1,13 +1,13 @@
 ---
-title: "Gödel, Escher, Bach – An Eternal Golden Braid"
-date: 2025-04-15
+title: "Book Review: Gödel, Escher, Bach - An Eternal Golden Braid"
+date: 2025-04-15T10:00:00+00:00
 description: "A review of the book: Gödel, Escher, Bach by Douglas Hofstadter"
 book_author: "Douglas R. Hofstadter"
 book_year: "1999 (paperback)"
 book_publisher: "Basic Books"
 book_url: "https://www.basicbooks.com/titles/douglas-r-hofstadter/g%C3%B6del-escher-bach/9780465026562/"
 cover_image: "/books/images/godel-escher-bach/cover.png"
-tags: ["book review", "mathematics", "philosophy", "consciousness", "logic", "recursion"]
+tags: ["Book Review", "Philosophy", "Mathematics", "Consciousness", "logic", "recursion"]
 draft: false
 ShowReadingTime: true
 ShowShareButtons: true
