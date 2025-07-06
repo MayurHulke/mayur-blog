@@ -2,7 +2,7 @@
 title: "Diffusion Policy: Robot Learning"
 date: 2025-03-19T14:45:00+00:00
 tags: ["Robotics", "Machine Learning", "Diffusion Models", "Research"]
-draft: false
+draft: true
 description: "How it works, where it wins, what still hurts, and what the community is fixing next."
 ShowReadingTime: true
 ShowToc: true
