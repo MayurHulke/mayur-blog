@@ -1,9 +1,9 @@
 ---
-title: "Diffusion Policy: A Practical Guide to the Most Exciting New Approach in Robot Learning"
+title: "Diffusion Policy: Robot Learning"
 date: 2025-03-19T14:45:00+00:00
 tags: ["Robotics", "Machine Learning", "Diffusion Models", "Research"]
 draft: false
-description: "A deep dive into Cheng Chi et al.'s Diffusion Policy: how it works, where it wins, what still hurts, and what the community is fixing next."
+description: "How it works, where it wins, what still hurts, and what the community is fixing next."
 ShowReadingTime: true
 ShowToc: true
 ---
