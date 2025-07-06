@@ -3,6 +3,7 @@ title: "The Broken Code Advantage"
 date: 2024-07-06
 draft: false
 ShowToc: true
+tags: ["Career", "Debugging", "Software Engineering", "Professional Growth"]
 ---
 
 # The Broken Code Advantage
