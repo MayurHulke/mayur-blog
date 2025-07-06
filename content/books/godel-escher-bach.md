@@ -1,5 +1,5 @@
 ---
-title: "Book Review: Gödel, Escher, Bach - An Eternal Golden Braid"
+title: "Book Review: Gödel, Escher, Bach: An Eternal Golden Braid"
 date: 2025-04-12T16:20:00+00:00
 description: "A review of the book: Gödel, Escher, Bach by Douglas Hofstadter"
 book_author: "Douglas R. Hofstadter"
@@ -16,11 +16,11 @@ math: true
 
 So I thought I had a "decent" handle on "how consciousness and intelligence work". Then I read Gödel, Escher, Bach and realized I might not know shit :-D.
 
-Hofstadter's basic pitch is wild: consciousness emerges when systems get complex enough to reference themselves. He calls these "strange loops" - like when you point a camera at its own monitor and get that infinite tunnel effect, except somehow that creates you.
+Hofstadter's basic pitch is wild: consciousness emerges when systems get complex enough to reference themselves. He calls these "strange loops," like when you point a camera at its own monitor and get that infinite tunnel effect, except somehow that creates you.
 
-The book connects three seemingly random things: Gödel's math proofs that show logical systems can't fully understand themselves, Escher's impossible staircases and hands drawing themselves, and Bach's fugues that loop back on themselves in musical patterns. At first I'm thinking "okay, cool analogies bro" but then Hofstadter starts building this argument that these aren't just similar - they're all examples of the same fundamental process that creates consciousness.
+The book connects three seemingly random things: Gödel's math proofs that show logical systems can't fully understand themselves, Escher's impossible staircases and hands drawing themselves, and Bach's fugues that loop back on themselves in musical patterns. At first I'm thinking "okay, cool analogies bro," but then Hofstadter starts building this argument that these aren't just similar; they're all examples of the same fundamental process that creates consciousness.
 
-This actually makes some sense if you think about it. Simple rules can create emergent behaviors that surprise you. But consciousness? That's a hell of a leap. Here's where it gets interesting for AI folks though - Hofstadter isn't just saying "machines can think," he's saying thinking itself is just a particular kind of self-referential loop. No magic, no soul, just sufficiently complex recursion.
+This actually makes some sense if you think about it. Simple rules can create emergent behaviors that surprise you. But consciousness? That's a hell of a leap. Here's where it gets interesting for AI folks though: Hofstadter isn't just saying "machines can think"; he's saying thinking itself is just a particular kind of self-referential loop. No magic, no soul, just sufficiently complex recursion.
 
 Look, the guy's obviously brilliant and the book is fascinating, but I'm not buying that consciousness is just self-reference. You can build recursive systems that reference themselves all day long. They're useful, sometimes surprising, but they're not having experiences. Maybe consciousness needs self-reference, but there's got to be more to it. The book feels like it's solving consciousness by defining it away rather than actually explaining why there's something it's like to be you when you're thinking about thinking. And obviously in order to solve any problem you need to understand that problem, which to be honest, we as human beings haven't really nailed down what consciousness and intelligence is in the first place. So, you can see how tricky it can be to take anything on its face value.
 
