@@ -227,17 +227,17 @@ With FAISS, Annoy, or ScaNN, you get:
 
 ### Deep Dive: Similarity Search Algorithms
 
-#### 1. Annoy (Approximate Nearest Neighbors Oh Yeah!)
+### Annoy (Approximate Nearest Neighbors Oh Yeah!)
 
-##### The Problem It Solves
+#### The Problem It Solves
 Imagine you have 1 million images stored as vectors (lists of numbers from a model like CLIP), and a new image comes in. You want to ask: "Which of those 1 million images looks most similar to this one?"
 
 That's called Nearest Neighbor Search — finding the closest match. Doing this with regular Python for each of those million images would be painfully slow. That's where Annoy comes in.
 
-##### How Annoy Works
+#### How Annoy Works
 Annoy is like a smart catalog. It builds quick lookup tables (trees) that help you skip most of the dataset and go straight to similar items — similar to how a library indexes books so you don't read every single one.
 
-###### Understanding Random Projection Trees
+#### Understanding Random Projection Trees
 Imagine you have a room full of marbles scattered in 3D space:
 - Drop a straight stick through the room (a line) — that's your random direction
 - Split all the marbles based on which side of the stick they fall on
@@ -255,29 +255,29 @@ Annoy builds many such trees — so if one tree gives a bad answer, others may h
 - Fast and simple, great for read-only applications
 - Not ideal for frequently changing data — requires tree rebuilding
 
-#### 2. ScaNN (Scalable Nearest Neighbors)
+### ScaNN (Scalable Nearest Neighbors)
 
-##### The Problem It Solves
+#### The Problem It Solves
 Similar to Annoy, but with additional focus on:
 - 🧠 Memory efficiency (not wasting RAM)
 - ⚡ Speed (real-time search)
 - 🤖 Scale (handle billions of vectors)
 
-##### How ScaNN Works
+#### How ScaNN Works
 ScaNN employs three main techniques:
 
-###### 1. Clustering (Partitioning)
+#### 1. Clustering (Partitioning)
 Imagine your data spread across a big field:
 - ScaNN breaks this field into regions — like dividing a country into cities
 - When a new vector arrives, you only search in the nearest "city"
 - Uses k-means clustering for smart grouping
 
-###### 2. Quantization
+#### 2. Quantization
 - Compresses the long lists of numbers (e.g., 512 values) to use less space
 - Similar to zipping a file for memory efficiency
 - Can still compare compressed vectors quickly using approximate math
 
-###### 3. Re-ranking
+#### 3. Re-ranking
 - Gets initial matches from compressed data
 - Optionally re-checks them exactly to ensure they're truly the best matches
 
@@ -287,9 +287,9 @@ Imagine your data spread across a big field:
 - More complex setup
 - Not ideal for constantly changing data
 
-#### 3. HNSW (Hierarchical Navigable Small World Graph)
+### HNSW (Hierarchical Navigable Small World Graph)
 
-##### The Problem It Solves
+#### The Problem It Solves
 Think of being in a new city without a map, looking for the closest coffee shop:
 - Ask a local for directions
 - Walk in that direction
@@ -298,15 +298,15 @@ Think of being in a new city without a map, looking for the closest coffee shop:
 
 HNSW mimics this human behavior using a graph instead of a tree.
 
-##### How HNSW Works
-###### Graph Structure
+#### How HNSW Works
+#### Graph Structure
 - A collection of points (vectors) with connections (edges) between them
 - Each point links to other nearby points
 - Multi-layer structure:
   - Top level: Broad overview, few points
   - Lower levels: More detail, more connections
 
-###### Search Process
+#### Search Process
 1. Start at a random node in the top layer
 2. Check all neighbors — move to the closest one
 3. Repeat layer by layer until reaching the bottom
